@@ -1,0 +1,22 @@
+/* pages/index/index.wxss */
+
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 800px;
+   width: 100%;
+   background: gainsboro;   
+}
+
+.bg_audio{
+  width:100%;
+  height: 450rpx;
+  margin-top:100rpx; 
+}
+
+.control-view image{
+   margin: 60rpx;
+   width:56rpx;
+   height: 34rpx;
+}

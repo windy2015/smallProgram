@@ -1,0 +1,12 @@
+<!--pages/index/index.wxml-->
+<!--音乐播放界面-->
+
+<view class="container">
+     <image class="bg_audio" src="/images/music.png" />
+     <view class="control-view">
+         <image src="/images/back.png" data-how="0" bindtap="onPositionTap"/>
+         <image src="/images/{{isPlaying?'pause' : 'start'}}.png" bindtap="onAudioTap"/>
+         <image src="/images/forward.png" data-how="1" bindtap="onPositionTap"/>
+        
+     </view>
+</view>
