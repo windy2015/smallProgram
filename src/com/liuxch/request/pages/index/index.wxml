@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view>
+    <text>{{data}}</text>
+    <button bindtap="OnRequest">request</button>
+</view>
